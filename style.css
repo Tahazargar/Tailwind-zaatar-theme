@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Oswald";
+    src: 
+    url("./assets/fonts/Oswald-Bold.ttf") format("ttf"),
+    url("./assets/fonts/Oswald-ExtraLight.ttf") format("ttf"),
+    url("./assets/fonts/Oswald-Light.ttf") format("ttf"),
+    url("./assets/fonts/Oswald-Medium.ttf") format("ttf"),
+    url("./assets/fonts/Oswald-Medium.ttf") format("ttf"),
+    url("./assets/fonts/Oswald-Regular.ttf") format("ttf"),
+    url("./assets/fonts/Oswald-SemiBold.ttf") format("ttf");
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+i,
+div,
+span,
+b{
+    font-family: "Oswald";
+    font-weight: bold;
+}
+
+.main-banner .btn-h1-container{
+    margin: -500px 0px 0px 40px;
+}
+
+.main-banner .btn-h1-container button{
+    margin-top: 240px;
+}
